@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar Section */
+#navbar{
+    background-color: #092635;
+}
+h1{
+    color: #9EC8B9;
+}
+.nav-link{
+    color: #9EC8B9;
+
+}
+.nav-link:hover{
+    border-bottom: 2px solid #9EC8B9  ;
+    color: #eef2f0;
+}
+.logo{
+    height: 100px;
+    border-radius: 100%;
+    margin-left: 2%;
+}
+
+/* Intro Section */
+#services{
+    background-color: #092635;
+    color: #9EC8B9;
+}
+div>h2{
+    color: #eef2f0;
+}
+/* projects section */
+.project-text{
+    color: #092635;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: bolder;
+    font-size: 50px;
+}
+/* contact me section */
+#contact{
+    background-color: #092635;
+    color: #9EC8B9;
+}
+.footer-link{
+    color: #9EC8B9;
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: end;
+
+}
