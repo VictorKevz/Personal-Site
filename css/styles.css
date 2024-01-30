@@ -41,6 +41,19 @@ div>h2{
     font-weight: bolder;
     font-size: 50px;
 }
+
+/* Certificates Section */
+.d-block{
+    margin: 5% auto;
+    width: 100%;
+    height: 500px;
+}
+.carousel-control-next-icon{
+    background-color: rgb(63, 61, 61);
+}
+.carousel-control-prev-icon{
+    background-color: rgb(63, 61, 61);
+}
 /* contact me section */
 #contact{
     background-color: #092635;
@@ -53,4 +66,22 @@ div>h2{
     font-size: 25px;
     text-align: end;
 
+}
+
+/* Responsiveness Sections */
+@media screen and (max-width: 768px) {
+    .d-block{
+        margin: 5% auto;
+        width: 100%;
+        height: 250px;
+    }
+    
+}
+@media screen and (max-width: 396px) {
+    .d-block{
+        margin: 5% auto;
+        width: 100%;
+        height: 100px;
+    }
+    
 }
