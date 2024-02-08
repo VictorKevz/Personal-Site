@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* All my buttons have the same styling */
+.btn{
+    background-color: #092635;
+    color: #9EC8B9;
+    border: 1px solid #9EC8B9;
+}
+/* Navigation Bar Section */
+#navbar{
+    background-color: #092635;
+}
+
+.nav-link{
+    color: #9EC8B9;
+
+}
+.nav-link:hover{
+    border-bottom: 2px solid #9EC8B9  ;
+    color: #eef2f0;
+}
+.logo{
+    height: 100px;
+    border-radius: 100%;
+    margin-left: 2%;
+}
+
+/* Skills Section */
+#skills{
+    background-color: #092635;
+    
+}
+.text{
+    color: #d4d3d3;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+  
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+  
+ 
+  
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+    background-color:#9EC8B9
+
+  }
+  
+div>h2{
+    color: #9EC8B9;
+    font-size: 50px;
+}
+/* projects section */
+.project-text{
+    color: #092635;
+    text-align: center;
+    padding: 25px 0;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+/* Certificates Section */
+.d-block{
+    margin: 5% 0;
+    width: 100%;
+    height: 500px;
+}
+.carousel-control-next-icon{
+    background-color: rgb(63, 61, 61);
+}
+.carousel-control-prev-icon{
+    background-color: rgb(63, 61, 61);
+}
+/* contact me section */
+#contact{
+    background-color: #092635;
+    color: #9EC8B9;
+}
+.footer-link{
+    color: #9EC8B9;
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: end;
+
+}
+
+/* Responsiveness Sections */
+@media screen and (max-width: 768px) {
+    .d-block{
+        margin: 5% auto;
+        width: 100%;
+        height: 250px;
+    }
+    
+}
+@media screen and (max-width: 396px) {
+    .d-block{
+        margin: 5% auto;
+        width: 100%;
+        height: 100px;
+    }
+    
+}
