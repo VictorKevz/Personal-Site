@@ -21,12 +21,12 @@ body{
 .nav-link:hover{
     border-bottom: 2px solid #9EC8B9  ;
     color: #eef2f0;
-}
-.logo{
-    height: 100px;
-    border-radius: 100%;
-    margin-left: 2%;
-}
+} 
+ .logo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+ }
 
 /* Skills Section */
 #skills{
@@ -97,8 +97,8 @@ div>h2{
     color: #9EC8B9;
     list-style: none;
     text-decoration: none;
-    font-size: 25px;
-    text-align: end;
+    font-size: 15px;
+   
 
 }
 
