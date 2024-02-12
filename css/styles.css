@@ -177,3 +177,15 @@ margin-left: 0;
     }
     
 }
+/* The About me section Responsiveness */
+@media (max-width:912px) {
+    .first,.second,.third{ grid-column:span 3 ;}
+    .store-pic{
+        height: 50%;
+        width: 50%;
+        border-radius: 100%;
+    }
+    .third{
+        padding: 20px;
+    }
+}
